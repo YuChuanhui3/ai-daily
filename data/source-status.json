@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-14T01:21:37.262481Z",
+  "generated_at": "2026-07-15T01:18:21.279719Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 180,
-      "duration_ms": 5819,
+      "item_count": 187,
+      "duration_ms": 5319,
       "error": null
     },
     {
       "site_id": "aibreakfast",
       "site_name": "AI Breakfast",
       "ok": true,
-      "item_count": 7,
-      "duration_ms": 195,
+      "item_count": 6,
+      "duration_ms": 289,
       "error": null
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 31,
-      "duration_ms": 23,
+      "item_count": 40,
+      "duration_ms": 155,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 319,
+      "duration_ms": 423,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 291,
+      "duration_ms": 297,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 373,
-      "duration_ms": 13655,
+      "item_count": 374,
+      "duration_ms": 15901,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 495,
+      "duration_ms": 826,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2971,
-      "duration_ms": 1384,
+      "item_count": 2983,
+      "duration_ms": 1611,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 79,
-      "duration_ms": 512,
+      "item_count": 77,
+      "duration_ms": 641,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 351,
+      "duration_ms": 276,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1378,
+      "duration_ms": 1608,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 554,
+      "duration_ms": 514,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 120,
-      "duration_ms": 1522,
+      "item_count": 125,
+      "duration_ms": 890,
       "error": null
     },
     {
@@ -110,8 +110,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 20,
-      "duration_ms": 1850,
+      "item_count": 0,
+      "duration_ms": 1426,
       "error": null,
       "feed_count": 1,
       "effective_feed_count": 1,
@@ -123,10 +123,12 @@
   ],
   "successful_sites": 14,
   "failed_sites": [],
-  "zero_item_sites": [],
-  "fetched_raw_items": 5002,
-  "items_before_topic_filter": 3587,
-  "items_in_24h": 373,
+  "zero_item_sites": [
+    "opmlrss"
+  ],
+  "fetched_raw_items": 5013,
+  "items_before_topic_filter": 3531,
+  "items_in_24h": 387,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -134,7 +136,9 @@
     "effective_feed_total": 1,
     "ok_feeds": 1,
     "failed_feeds": [],
-    "zero_item_feeds": [],
+    "zero_item_feeds": [
+      "https://juejin.cn/rss"
+    ],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
@@ -145,8 +149,8 @@
         "feed_url": "https://juejin.cn/rss",
         "effective_feed_url": "https://juejin.cn/rss",
         "ok": true,
-        "item_count": 20,
-        "duration_ms": 1850,
+        "item_count": 0,
+        "duration_ms": 1426,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -175,6 +179,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-07-14"
+    "generated_date_utc": "2026-07-15"
   }
 }
