@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T01:46:51.252942Z",
+  "generated_at": "2026-08-01T01:48:08.777287Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 175,
-      "duration_ms": 2630,
+      "item_count": 176,
+      "duration_ms": 2668,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 155,
+      "duration_ms": 22,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 34,
-      "duration_ms": 48,
+      "item_count": 36,
+      "duration_ms": 27,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 411,
+      "duration_ms": 464,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 306,
+      "duration_ms": 293,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 373,
-      "duration_ms": 13860,
+      "item_count": 375,
+      "duration_ms": 12003,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 731,
+      "duration_ms": 854,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3032,
-      "duration_ms": 1584,
+      "item_count": 3026,
+      "duration_ms": 1955,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 78,
-      "duration_ms": 454,
+      "item_count": 80,
+      "duration_ms": 480,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5030,
+      "duration_ms": 5069,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='ai.hubtoday.app', port=443): Failed to resolve 'ai.hubtoday.app' ([Errno -2] Name or service not known)\"))"
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 905,
+      "duration_ms": 1426,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1158,
+      "duration_ms": 788,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 124,
-      "duration_ms": 1373,
+      "item_count": 122,
+      "duration_ms": 1086,
       "error": null
     },
     {
@@ -110,8 +110,8 @@
       "site_name": "OPML RSS",
       "ok": true,
       "partial_failures": 0,
-      "item_count": 0,
-      "duration_ms": 1241,
+      "item_count": 20,
+      "duration_ms": 1630,
       "error": null,
       "feed_count": 1,
       "effective_feed_count": 1,
@@ -126,12 +126,10 @@
     "aibreakfast",
     "aihubtoday"
   ],
-  "zero_item_sites": [
-    "opmlrss"
-  ],
-  "fetched_raw_items": 5036,
-  "items_before_topic_filter": 2433,
-  "items_in_24h": 366,
+  "zero_item_sites": [],
+  "fetched_raw_items": 5055,
+  "items_before_topic_filter": 2442,
+  "items_in_24h": 346,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -139,9 +137,7 @@
     "effective_feed_total": 1,
     "ok_feeds": 1,
     "failed_feeds": [],
-    "zero_item_feeds": [
-      "https://juejin.cn/rss"
-    ],
+    "zero_item_feeds": [],
     "skipped_feeds": [],
     "replaced_feeds": [],
     "feeds": [
@@ -152,8 +148,8 @@
         "feed_url": "https://juejin.cn/rss",
         "effective_feed_url": "https://juejin.cn/rss",
         "ok": true,
-        "item_count": 0,
-        "duration_ms": 1241,
+        "item_count": 20,
+        "duration_ms": 1630,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -182,6 +178,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-07-31"
+    "generated_date_utc": "2026-08-01"
   }
 }
