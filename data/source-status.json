@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T01:44:15.865172Z",
+  "generated_at": "2026-09-08T01:55:35.149084Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 193,
-      "duration_ms": 2793,
+      "item_count": 194,
+      "duration_ms": 3395,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 211,
+      "duration_ms": 126,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 11,
-      "duration_ms": 24,
+      "item_count": 6,
+      "duration_ms": 317,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 373,
+      "duration_ms": 334,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 492,
+      "duration_ms": 647,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 354,
-      "duration_ms": 14500,
+      "item_count": 337,
+      "duration_ms": 15325,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 570,
+      "duration_ms": 1042,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3033,
-      "duration_ms": 1814,
+      "item_count": 3037,
+      "duration_ms": 1457,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 55,
-      "duration_ms": 543,
+      "item_count": 64,
+      "duration_ms": 590,
       "error": null
     },
     {
@@ -78,15 +78,15 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 65204,
-      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1016)')))"
+      "duration_ms": 5557,
+      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2475,
+      "duration_ms": 1681,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 717,
+      "duration_ms": 983,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 128,
-      "duration_ms": 2837,
+      "item_count": 124,
+      "duration_ms": 1553,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 20,
-      "duration_ms": 1360,
+      "duration_ms": 1130,
       "error": null,
       "feed_count": 1,
       "effective_feed_count": 1,
@@ -127,9 +127,9 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5014,
-  "items_before_topic_filter": 3095,
-  "items_in_24h": 239,
+  "fetched_raw_items": 5002,
+  "items_before_topic_filter": 2264,
+  "items_in_24h": 241,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -149,7 +149,7 @@
         "effective_feed_url": "https://juejin.cn/rss",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1360,
+        "duration_ms": 1130,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -178,6 +178,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-09-07"
+    "generated_date_utc": "2026-09-08"
   }
 }
